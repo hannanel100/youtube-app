@@ -1,0 +1,5 @@
+<div class='item' *ngFor='let video of videoList' (click)="play(video.id.videoId)">
+    <h3>{{video.snippet.title}}</h3>
+    <strong>{{video.snippet.description}}</strong>
+    <img [src]="video.snippet.thumbnails.default.url">
+</div>
