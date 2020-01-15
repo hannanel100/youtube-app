@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   searchInputDelay: 1.5,
-  youTubeKey: 'asdasd',
+  youTubeKey: 'AIzaSyCX-RI2QYk7zwWGu31-M2cSTja5n1DUn_g',
   serverUri: 'http://localhost:4200'
 };
 

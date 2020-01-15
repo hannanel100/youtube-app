@@ -1,0 +1,13 @@
+<section class='left'>
+    <aside>
+        <app-video-list [videoList]="videoList" (onVideoSelected)='onVideoSelected($event)'></app-video-list>
+    </aside>
+</section>
+<section class='right'>
+    <header>
+        <app-search (videoListEvent)="videoListReceived($event)"></app-search>
+    </header>
+    <main>
+        <app-player [videoId]="selectedVideoId"></app-player>
+    </main>
+</section>
